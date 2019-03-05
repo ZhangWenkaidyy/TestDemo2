@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/px_12"
+    android:gravity="center_vertical"
+    android:layout_height="@dimen/px_372">
+    
+    <ImageView
+        android:id="@+id/iv_gone"
+        android:layout_width="@dimen/px_34"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.CardView
+
+        app:cardElevation="@dimen/px_0"
+        app:cardCornerRadius="6px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/bg_cccccc_6px"
+            android:orientation="vertical"
+            android:layout_width="@dimen/px_700"
+            android:layout_height="@dimen/px_324">
+            <ImageView
+
+                android:background="#00ff00"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_214"/>
+            <LinearLayout
+                android:paddingLeft="@dimen/px_34"
+                android:paddingRight="@dimen/px_34"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="#e62e2e2e"
+                        android:textSize="@dimen/px_34"
+                        android:text="Organic Coffee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="@dimen/px_34"
+                        android:textColor="#e62e2e2e"
+                        android:text="15%  Cashback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <TextView
+                    android:text="Get Deal"
+                     android:gravity="center"
+                    android:textSize="@dimen/px_34"
+                    android:textColor="#e6ff7800"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bg_ff9500_28"
+                    android:layout_width="@dimen/px_290"
+                    android:layout_height="@dimen/px_56"/>
+
+            </LinearLayout>
+
+            
+            
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

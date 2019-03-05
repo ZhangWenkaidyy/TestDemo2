@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RingStatisticsView">
+        <attr name="rsv_RingWidth" format="reference|dimension"/>
+        <attr name="rsv_PercentTextSize" format="reference|dimension"/>
+    </declare-styleable>
+
+</resources>

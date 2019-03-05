@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:background="@color/kevinwhite"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_408">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_328"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/navigationbar2lightcopy">
+
+            <ImageView
+                android:layout_width="@dimen/px_276"
+                android:layout_height="@dimen/px_62"
+                android:layout_marginLeft="@dimen/px_44"
+                android:layout_marginTop="@dimen/px_134"
+                android:src="@drawable/logo"
+                />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/px_826"
+                android:layout_height="@dimen/px_82"
+                android:layout_marginLeft="@dimen/px_32"
+              android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/px_18"
+                android:background="@drawable/bg_fff_20px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/px_86"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="Search"
+                    android:textColorHint="#b2b2b2"
+                    android:paddingLeft="@dimen/px_54"
+                    android:textSize="@dimen/px_42"/>
+
+                <ImageView
+                    android:layout_width="@dimen/px_40"
+                    android:layout_height="@dimen/px_40"
+                    android:layout_marginRight="@dimen/px_24"
+                    android:src="@drawable/icon_search"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="@dimen/px_248"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/px_38"
+                android:layout_marginTop="@dimen/px_120"
+                android:gravity="center"
+                android:text="Good Morning, Guest"
+                android:textColor="@color/kevinwhite"
+                android:textSize="@dimen/px_34"/>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/px_96"
+            android:layout_height="@dimen/px_118"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/px_44"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/px_100"
+            android:background="@drawable/layer43copy"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_80"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px_44"
+                android:text="Get a quick start?Let do a "
+                android:textColor="#7a7a7a"
+                android:textSize="@dimen/px_32"/>
+
+            <TextView
+                android:layout_width="@dimen/px_338"
+                android:layout_height="@dimen/px_46"
+                android:layout_marginLeft="@dimen/px_20"
+                android:layout_marginRight="@dimen/px_20"
+                android:background="@drawable/roundedrectangle572"
+                android:gravity="center"
+                android:paddingLeft="@dimen/px_36"
+                android:paddingRight="@dimen/px_36"
+                android:text="Needs Accessment"
+                android:textColor="@color/kevinwhite"
+                android:textSize="@dimen/px_28"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="first."
+                android:textColor="#7a7a7a"
+                android:textSize="@dimen/px_32"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

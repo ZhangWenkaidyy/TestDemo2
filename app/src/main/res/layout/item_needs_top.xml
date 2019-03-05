@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_652"
+        android:background="@drawable/layer825">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px_128"
+            android:text="ASSESSMENT REPORT"
+            android:textColor="#fff"
+            android:textSize="@dimen/px_50"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="@dimen/px_370"
+            android:layout_height="@dimen/px_72"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px_220"
+            android:background="@drawable/bg_fff_36px"
+            android:gravity="center"
+            android:text="New AssessMent"
+            android:textColor="#fff"
+            android:textSize="@dimen/px_36"/>
+
+        <ImageView
+            android:layout_width="@dimen/px_74"
+            android:layout_height="@dimen/px_74"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/px_76"
+            android:layout_marginTop="@dimen/px_314"
+            android:src="@drawable/layer2501"/>
+
+        <ImageView
+            android:layout_width="@dimen/px_678"
+            android:layout_height="@dimen/px_308"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/px_34"
+            android:layout_marginRight="@dimen/px_38"
+            android:src="@drawable/layer43copy3"/>
+
+        <TextView
+            android:textColor="#ff7e00"
+            android:textSize="@dimen/px_36"
+            android:text="Customize my plan"
+            android:layout_marginTop="@dimen/px_312"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/px_94"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="@dimen/px_80"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

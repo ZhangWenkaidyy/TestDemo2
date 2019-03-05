@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:radius="@dimen/px_36" />
+
+    <solid android:color="#ff9500" />
+
+    <stroke
+        android:width="2px"
+        android:color="#fff" />
+    <!-- 边框宽度和颜色 -->
+
+</shape>
